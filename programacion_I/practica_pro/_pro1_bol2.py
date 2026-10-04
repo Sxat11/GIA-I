@@ -165,16 +165,65 @@ Created on Tue Sep 29 08:46:37 2026
 # print(f'Tienes {edad} años de edad')
     
 # Ejercicio 9
-sal_anual = int(input('Introduzca su salario anual bruto (en euros): '))
-hijos = int(input('Introduzca el número de hijos menores de 18 años a su cargo: ')) 
-irpf = sal_anual * 0.15
-if hijos <=5:
-    reduccion = irpf * (0.1*hijos) 
-else: 
-    reduccion = irpf * 0.5
-print(f'IRPF(15%): {irpf}')
-print(f'Reducción debida a {hijos} a cargo {reduccion}')
-print(f'Total anual a pagar: {irpf - reduccion}')
+# sal_anual = int(input('Introduzca su salario anual bruto (en euros): '))
+# hijos = int(input('Introduzca el número de hijos menores de 18 años a su cargo: ')) 
+# irpf = sal_anual * 0.15
+# if hijos <=5:
+#     reduccion = irpf * (0.1*hijos) 
+# else: 
+#     reduccion = irpf * 0.5
+# print(f'IRPF(15%): {irpf}')
+# print(f'Reducción debida a {hijos} a cargo {reduccion}')
+# print(f'Total anual a pagar: {irpf - reduccion}')
     
+# Ejercicio 10
+# n1 = int(input('Introduzca primer número: '))
+# n2 = int(input('Introduzca segundo número:'))
+# n3 = int(input('Introduzca tercer número:'))
+# if n1 > n2:
+#     if n1 > n3:
+#         maxi = int(n1)
+#     else:
+#         maxi = int(n3)
+# else:
+#     if n2 > n3:
+#         maxi = int(n2)
+#     else:
+#         maxi = int(n3)
+        
+# if n1 < n2:
+#     if n1 < n3:
+#         mini = int(n1)
+#     else:
+#         mini = int(n3)
+# else:
+#     if n2 < n3:
+#         mini = int(n2)
+#     else:
+#         mini = int(n3)
 
+# if mini <= 0: 
+#     print('Error: No se admite 0 o menor')
+# else: 
+#     cociente = maxi / mini
+#     resto = maxi % mini
+#     print(f'{maxi} dividido | entre {mini}')
+#     print('          ---------------')
+#     print(f'R:{resto}    C:{cociente:.0f} ')
+
+# Ejercicio 11
+l1 = int(input("Introduzca la longitud del primer lado del triángulo (cm): "))  
+l2 = int(input("Introduzca la longitud del segundo lado del triángulo (cm): "))  
+l3 = int(input("Introduzca la longitud del tercer lado del triángulo (cm): "))  
+if l1 == l2 == l3:
+    print('Es un triángulo equilatero')
+elif l1 == l2 or l1 == l3 or l2 == l3:
+    print('Es un triángulo isósceles')
+else:
+    print('Es un triángulo escaleno')
+
+# Ejercicio 12
+
+
+    
 
